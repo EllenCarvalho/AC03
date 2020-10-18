@@ -1,0 +1,53 @@
+2020-10-18T00:33:21.328882+00:00 app[api]: Initial release by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:33:21.328882+00:00 app[api]: Release v1 created by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:33:21.435141+00:00 app[api]: Enable Logplex by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:33:21.435141+00:00 app[api]: Release v2 created by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:34:48.000000+00:00 app[api]: Build started by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:35:13.036068+00:00 app[api]: Deploy c3a39c4c by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:35:13.036068+00:00 app[api]: Release v3 created by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:35:13.056670+00:00 app[api]: Scaled to web@1:Free by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T00:35:17.184759+00:00 heroku[web.1]: Starting process with command `python AC03.py`
+2020-10-18T00:35:20.447827+00:00 app[web.1]: * Serving Flask app "AC03" (lazy loading)
+2020-10-18T00:35:20.447947+00:00 app[web.1]: * Environment: production
+2020-10-18T00:35:20.447981+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-18T00:35:20.448094+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-18T00:35:20.448151+00:00 app[web.1]: * Debug mode: off
+2020-10-18T00:35:20.467227+00:00 app[web.1]: * Running on http://0.0.0.0:8974/ (Press CTRL+C to quit)
+2020-10-18T00:35:21.000000+00:00 app[api]: Build succeeded
+2020-10-18T00:35:21.742694+00:00 heroku[web.1]: State changed from starting to up
+2020-10-18T00:37:09.400582+00:00 app[web.1]: 10.95.209.15 - - [18/Oct/2020 00:37:09] "GET / HTTP/1.1" 200 -
+2020-10-18T00:37:09.401305+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=9106ead0-dbb1-4273-8213-44e1e2768632 fwd="191.178.229.151" dyno=web.1 connect=1ms service=5ms status=200 bytes=258 protocol=https
+2020-10-18T00:37:09.802739+00:00 app[web.1]: 10.95.209.15 - - [18/Oct/2020 00:37:09] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-18T00:37:09.803452+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3ec2020.herokuapp.com request_id=dd58c4eb-32d8-4d25-8ef3-5ca4c3127310 fwd="191.178.229.151" dyno=web.1 connect=1ms service=13ms status=404 bytes=379 protocol=https
+2020-10-18T00:40:08.821160+00:00 app[web.1]: 10.95.177.213 - - [18/Oct/2020 00:40:08] "GET / HTTP/1.1" 200 -
+2020-10-18T00:40:08.822769+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=c8ba31db-a790-452a-9751-4b494bc27bd5 fwd="191.178.229.151" dyno=web.1 connect=0ms service=6ms status=200 bytes=258 protocol=https
+2020-10-18T00:41:27.157502+00:00 app[web.1]: 10.29.126.3 - - [18/Oct/2020 00:41:27] "GET / HTTP/1.1" 200 -
+2020-10-18T00:41:27.161400+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=e22c990c-02bc-44ca-ae8b-610c752e270c fwd="191.178.229.151" dyno=web.1 connect=1ms service=5ms status=200 bytes=258 protocol=https
+2020-10-18T00:41:29.089620+00:00 app[web.1]: 10.73.248.115 - - [18/Oct/2020 00:41:29] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-18T00:41:29.089868+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3ec2020.herokuapp.com request_id=0053937d-5fc0-405e-993d-77ffe1810950 fwd="191.178.229.151" dyno=web.1 connect=0ms service=2ms status=404 bytes=379 protocol=https
+2020-10-18T00:41:54.981000+00:00 app[web.1]: 10.35.189.198 - - [18/Oct/2020 00:41:54] "GET / HTTP/1.1" 200 -
+2020-10-18T00:41:54.986575+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=fe272708-0ab8-409f-a695-71e550a01b5a fwd="191.178.229.151" dyno=web.1 connect=1ms service=3ms status=200 bytes=258 protocol=https
+2020-10-18T00:41:55.357781+00:00 app[web.1]: 10.35.189.198 - - [18/Oct/2020 00:41:55] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-18T00:41:55.358324+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3ec2020.herokuapp.com request_id=4a63efe7-b24a-445b-b8c9-3d3634d1a9c0 fwd="191.178.229.151" dyno=web.1 connect=1ms service=2ms status=404 bytes=379 protocol=https
+2020-10-18T01:01:41.517682+00:00 app[web.1]: 10.69.85.146 - - [18/Oct/2020 01:01:41] "GET / HTTP/1.1" 200 -
+2020-10-18T01:01:41.518575+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=036cabc5-72cb-437b-9861-b6c9e57dccf2 fwd="191.178.229.151" dyno=web.1 connect=0ms service=6ms status=200 bytes=258 protocol=https
+2020-10-18T01:01:44.109563+00:00 app[web.1]: 10.41.207.200 - - [18/Oct/2020 01:01:44] "GET / HTTP/1.1" 200 -
+2020-10-18T01:01:44.110207+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=2589385d-79dc-4e4b-a964-471f6f43dba5 fwd="191.178.229.151" dyno=web.1 connect=8ms service=29ms status=200 bytes=258 protocol=https
+2020-10-18T01:09:46.000000+00:00 app[api]: Build started by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T01:10:09.450956+00:00 app[api]: Deploy 9158ef09 by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T01:10:09.450956+00:00 app[api]: Release v4 created by user ellen.carvalho@aluno.faculdadeimpacta.com.br
+2020-10-18T01:10:09.647966+00:00 heroku[web.1]: Restarting
+2020-10-18T01:10:09.660737+00:00 heroku[web.1]: State changed from up to starting
+2020-10-18T01:10:10.832724+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-18T01:10:10.916840+00:00 heroku[web.1]: Process exited with status 143
+2020-10-18T01:10:12.997950+00:00 heroku[web.1]: Starting process with command `python AC03.py`
+2020-10-18T01:10:16.636886+00:00 app[web.1]: * Serving Flask app "AC03" (lazy loading)
+2020-10-18T01:10:16.636963+00:00 app[web.1]: * Environment: production
+2020-10-18T01:10:16.637096+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-18T01:10:16.637183+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-18T01:10:16.637299+00:00 app[web.1]: * Debug mode: off
+2020-10-18T01:10:16.677210+00:00 app[web.1]: * Running on http://0.0.0.0:24718/ (Press CTRL+C to quit)
+2020-10-18T01:10:17.000000+00:00 app[api]: Build succeeded
+2020-10-18T01:10:17.052134+00:00 heroku[web.1]: State changed from starting to up
+2020-10-18T01:10:48.566854+00:00 app[web.1]: 10.79.224.171 - - [18/Oct/2020 01:10:48] "GET / HTTP/1.1" 200 -
+2020-10-18T01:10:48.568132+00:00 heroku[router]: at=info method=GET path="/" host=ac3ec2020.herokuapp.com request_id=0177a73e-5b11-4324-b770-9514ff72ed49 fwd="191.178.229.151" dyno=web.1 connect=1ms service=11ms status=200 bytes=633 protocol=https
