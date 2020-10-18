@@ -8,14 +8,18 @@ def numeros_primos():
     primos = []
     contagem = 0
     i = 0
+    numero = 0
     saida = 'Primos: '
-    for numero in range(100):
+
+    while len(primos) < 100:
         for divisor in range(1, numero):
             if numero % divisor == 0:
                 contagem += 1
         if contagem == 1:
              primos.append(numero)
         contagem = 0
+        numero += 1
+
     for a in primos:
         i += 1
         a = str(a)
